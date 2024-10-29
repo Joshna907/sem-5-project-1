@@ -154,3 +154,18 @@ nav ul li a.join-now:hover {
     box-sizing: border-box;
   }
   
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animation-slide-left {
+    animation: slideInLeft 2s ease-in-out;
+  }
+  

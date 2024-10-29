@@ -120,3 +120,4 @@ document.querySelectorAll('.card').forEach((card) => {
     this.classList.add('active');
   });
 });
+
